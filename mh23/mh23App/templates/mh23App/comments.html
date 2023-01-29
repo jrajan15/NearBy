@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static '/css/comments.css' %}">
+</head>
+<body>
+	<div class="header">
+		<div class="row">
+			<div class="col-md-4" align="left">
+				<a href="notifications" class="logo"><i class="bi bi-bell"></i></a>
+				<a href="events" class="logo"><i class="bi bi-calendar-event"></i></a>
+				<a href="settings" class="logo"><i class="bi bi-gear"></i></a>
+			</div>
+			<div class="col-md-4" align="left">
+				<h2 align="center" class="display-6">NearBy</h2>
+			</div>
+			<div class="col-md-3" align="right">
+			</div>
+			<div class="col-md-1" align="right">
+				<a href="events" class="logo"><i class="bi bi-person-circle"></i></a>
+			</div>
+		</div>
+	</div>
+<div class="container">
+    <label for="comment" name="comment">ADD YOUR COMMENT BELOW-</label>
+    <textarea id="comment"></textarea>
+    <button id="addComments">Add</button>
+    <div id="allComments"></div>
+</div>
+<script src="{% static '/js/comments.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=text]:invalid {
+    border: red solid 1px;
+}
+
+.container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+.container > label {
+   text-align: center;
+}
+#comment{
+    background-color: #fffdd0;
+}
+#addComments {
+    width: 20%;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+    align-self: center;
+}
+
+.wrapper > button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+}
+
